@@ -1,0 +1,121 @@
+.editorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edf2fa;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+.editorContainer {
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+  /* padding: 5px; */
+}
+
+.backwardImage {
+  width: 1em;
+  height: 1em;
+  padding: 10px 10px;
+  margin-left: 25px;
+}
+
+.backwardImage:hover {
+  background-color: #e1dfdf;
+  border-radius: 5px;
+}
+
+.forwardImage {
+  width: 1em;
+  height: 1em;
+  padding: 10px 10px;
+}
+
+.forwardImage:hover {
+  background-color: #e1dfdf;
+  border-radius: 5px;
+}
+
+.zoomContainer {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 37px;
+}
+
+.zoomContainer:hover {
+  background-color: #e1dfdf;
+  border-radius: 5px;
+}
+
+.dropdownImage {
+  width: 1em;
+  height: 1em;
+  margin-left: 1em;
+}
+
+.vertical-line {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 1px solid rgb(150, 147, 147);
+  height: 20px;
+}
+
+.plusMinusContainer {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.minusImage {
+  width: 0.7em;
+  height: 1em;
+  padding: 5px;
+}
+
+.minusImage:hover {
+  background-color: #e1dfdf;
+  border-radius: 5px;
+}
+
+.plusImage {
+  width: 0.7em;
+  height: 0.7em;
+  padding: 5px;
+}
+
+.plusImage:hover {
+  background-color: #e1dfdf;
+  border-radius: 5px;
+}
+
+.textSizeContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+  border: 1px solid black;
+  padding: 5px 7px;
+  height: 17px;
+  border-radius: 5px;
+}
+
+.editingImage {
+  width: 1em;
+  height: 1.2em;
+  margin-right: -5px;
+}
+
+.editingContainer {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 37px;
+}
+
+.editingContainer:hover {
+  background-color: #e1dfdf;
+  border-radius: 5px;
+}

@@ -1,0 +1,170 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.docContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.docImage {
+    width: 2.5em;
+    height: 3em;
+}
+
+.starImage {
+    width: 1em;
+    height: 1em;
+    margin-bottom: -10px;
+}
+
+.commentImage {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.headerContainer {
+    margin-left: 5px;
+    text-align: start;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.fileName {
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.4px;
+    margin-bottom: -20px;
+    width: 160px;
+    text-align: start;
+    background-color: #f9fbfd;
+}
+
+.fileName:hover {
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.4px;
+}
+
+.navBarContainer {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navText {
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navText:hover {
+    background-color: #f0f0f0;
+}
+
+.shareContainer {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.commentWrapper {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.commentWrapper:hover {
+    background-color: #f0f0f0;
+}
+
+.videoWrapper {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.videoWrapper:hover {
+    background-color: #f0f0f0;
+}
+
+.videoIcon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+.dropdownIcon {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.shareWrapperButton {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #c2e7ff;
+    border-radius: 20px;
+}
+
+.shareWrapperButton:hover {
+    background-color: rgba(194,231,255,255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+.shareIcon {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+
+.shareText {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.1pc;
+}
+
+.emailWrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color:rgb(24, 117, 8);
+    border-radius: 50%;
+    height: 30px;
+}
+
+.emailWrapper:hover {
+    background-color: rgb(24, 117, 8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+.emailText {
+    color: white;
+}
